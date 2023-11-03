@@ -1,0 +1,72 @@
+/* Footer.css */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+  }
+  
+  .footer p {
+    font-size: 0.7rem;
+    margin: 0;
+    color: black;
+    text-align: centre;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align columns to the top */
+  }
+  
+  .column {
+    margin: 20px 20px; /* Add spacing between columns */
+    flex:1; /* Expand columns to fill available space */
+  }
+  
+  .column h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 18px; /*Adjust font size as needed*/
+    margin-bottom: 20px; /* Add spacing between the title and links */
+  }
+  
+  .column p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(88, 88, 88);
+    font-size: 13px;
+    text-align:start;
+    margin-left: 15%;
+  }
+  
+  .column div {
+    margin: 15px 0;
+  }
+  
+  .column a {
+    text-decoration: none; /* Remove underline */
+    color: rgb(88, 88, 88); /* Change link color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .social-icons a {
+    padding: 7px;
+  }
+
+  .icon-ld, .icon-inst, .icon-fb, .icon-twi {
+    font-size: 25px;
+    transition: all 0.3s ease;
+  }
+
+  .icon-ld:hover, .icon-inst:hover, .icon-fb:hover, .icon-twi:hover {
+    transform: scale(1.25);
+  }
+
+  .column .site-title-footer {
+    font-size: 1.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
